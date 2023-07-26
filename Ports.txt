@@ -1,0 +1,9 @@
+http://localhost:5011  catalogapi
+http://localhost:5001 identity
+http://localhost:5012 photostock
+http://localhost:5013 basket
+http://localhost:5014 discount
+http://localhost:5015 order
+http://localhost:5016 fakepayment
+http://localhost:5000 gateway
+http://localhost:5010 web

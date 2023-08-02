@@ -21,7 +21,7 @@ namespace FreeCourse.IdentityServer.Controller
     {
         private readonly UserManager<ApplicationUser> _usermanager;
 
-        public UserController(UserManager<ApplicationUser> usermanager)
+        public UserController(UserManager<ApplicationUser> usermanager) 
         {
             _usermanager = usermanager;
         }

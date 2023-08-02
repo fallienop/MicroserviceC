@@ -27,7 +27,7 @@ namespace FreeCourse.IdentityServer.Services
                 return;
             }
             var passwordcheck=await _userManager.CheckPasswordAsync(existuser, context.Password);
-
+                
             if(passwordcheck==false)
             {
                     var errors=new Dictionary<string, object>();

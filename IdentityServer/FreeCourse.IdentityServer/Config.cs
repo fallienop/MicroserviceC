@@ -44,7 +44,7 @@ namespace FreeCourse.IdentityServer
             new ApiScope("order_fullpermission","order api full permission"),
             new ApiScope("payment_fullpermission","payment api full permission"),
             new ApiScope("gateway_fullpermission","gateway api full permission"),
-                new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
+                new ApiScope(IdentityServerConstants.LocalApi.ScopeName)    
         };
 
         public static IEnumerable<Client> Clients =>
